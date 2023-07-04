@@ -10,12 +10,12 @@ To run the code, the following instructions must be followed:
    pip install matplotlib
    ```
 3. **Get the code:** Download the code and use an integrated development environment (IDE) of your choice.
-4. **Run the code:** Open a terminal or command prompt, navigate to the directory where you saved the btc_analysis.py file, and execute the following command:
+4. **Run the code:** Open a terminal or command prompt, navigate to the directory where you saved the **btc.py** file, and execute the following command:
    ```
    streamlit run btc.py
    ```
    This command will start the Streamlit server and launch a web browser with the application.
 
-5. **View the results:** After executing the command, a new browser tab should open automatically, displaying the Streamlit application. You will see the BTC price data, closing prices, line plot, weeks with price movement, and the bar plot. You can interact with the web page and explore the visualizations.
+5. **View the results:** After executing the command, a new browser tab should open automatically, displaying the Streamlit application. You will see the BTC price data, closing prices, line plot, weeks with price movement, and the bar plot.
 
 **Note:** Make sure the device has an internet connection since the code downloads data from Yahoo! Finance using the yfinance package.
